@@ -12,7 +12,7 @@ public class MyToysTest {
     
     @Test
     public void testSucceccfull(){
-        assertEquals(1, computeFibonaci(2));
+        assertEquals(10, computeFibonaci(2));
         assertEquals(5, computeFibonaci(3));
         assertEquals(8, computeFibonaci(4));
     }
