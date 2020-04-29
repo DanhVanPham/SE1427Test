@@ -12,9 +12,9 @@ public class MyToysTest {
     
     @Test
     public void testSucceccfull(){
-        assertEquals(10, computeFibonaci(2));
-        assertEquals(5, computeFibonaci(3));
-        assertEquals(8, computeFibonaci(4));
+        assertEquals(3, computeFibonaci(2));
+        assertEquals(9, computeFibonaci(3));
+        assertEquals(7, computeFibonaci(4));
     }
     @Test(expected = IllegalArgumentException.class)
     public void testException(){
